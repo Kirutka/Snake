@@ -1,8 +1,11 @@
-module mod
+module snake-game
 
-go 1.23.0
+go 1.25.1
 
-require github.com/hajimehoshi/ebiten/v2 v2.8.6
+require (
+	github.com/hajimehoshi/ebiten/v2 v2.8.8
+	golang.org/x/image v0.31.0
+)
 
 require (
 	github.com/ebitengine/gomobile v0.0.0-20240911145611-4856209ac325 // indirect
